@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8fb;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+  
+ .box{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(2,400px);
+    grid-template-rows: repeat(2,100px);
+    height: 600px;
+    padding: 20px;
+    gap: 10rem;
+  }
+  
+  
+ .text h1 {
+    font-size: 2.5em;
+    color: #4B1A46;
+ }
+  
+ .text p {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #502150;
+    line-height: 1.6;
+  }
+ .imgs{
+    display: grid;
+    margin-left: 65px;
+  }
+ .score{
+    display: grid;
+    grid-template-columns: repeat(1,200px);
+    grid-template-rows: repeat(3,60px);
+    gap: 1rem;
+    color: #311a32;
+    font-weight: bold;
+    font-size: 12px;
+ }
+ .knopka1{
+    display: grid;
+    place-content: center;
+    background-color: #f9f2fb;
+    grid-template-columns: repeat(2,200px);
+    width: 300px;
+    margin-left: -55px;
+    border: none;
+    border-radius: 7px;
+   
+ }
+ .knopka2{
+    display: grid;
+    place-content: center;
+    background-color: #f9f2fb;
+    grid-template-columns: repeat(2,200px);
+    width: 300px;
+    border: none;
+    border-radius: 7px;
+    
+
+}
+.knopka3{
+    display: grid;
+    place-content: center;
+    background-color: #f9f2fb;
+    grid-template-columns: repeat(2,200px);
+    width: 300px;
+    margin-left: 55px;
+    border: none;
+    border-radius: 7px;
+    
+}
+.comm{
+    display: grid;
+    margin-top: 3px;
+    margin-left: -20px;
+}
+  
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    gap: 20px;
+  }
+  
+ .review-card {
+    background-color: #511F50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+ .all2{
+
+    margin-top: 30px;
+  }
+ .all3{
+    margin-top: 70px;
+  }
+  
+ .review-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+ }
+  
+ .review-content {
+    text-align: left;
+  }
+  
+ .review-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+ .job{
+    color:#b33f85;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+ .review-content blockquote {
+    font-size: 0.85em;
+    line-height: 1.5;
+    font-style: italic;
+    margin-top: 20px;
+    color: #EFD8F2;
+  }
+  p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  h3{
+    color: #EFD8F2;
+  }
+  @media screen and (max-width:450px){
+   body{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+       background-size: cover;
+       width: 100%;
+   }
+   h1{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       padding: 100px;
+       min-height: 40vh;
+       margin-left: 400px;
+   }
+   .parag{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       padding: 100px;
+       min-height: 40vh;
+       font-size: 30px;
+       margin-top: -200px;
+       margin-left: 400px;
+       
+   }
+   .box{
+       display: flex;
+       flex-direction: column;
+   }
+   .text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 200px;
+
+   }
+   .score{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       padding: 100px;
+       min-height: 40vh;
+       font-size: 30px;
+       margin-top: -100px;
+       margin-left: 400px;
+       gap: 6rem;
+   }
+   .knopka1{
+       margin-top: -200px;
+       margin-left: 30px;
+   }
+   .knopka2{
+       margin-top: -50px;
+       margin-left: 30px;
+   }
+   .knopka3{
+       margin-top: -50px;
+       margin-left: 30px;
+   }
+
+   .boxes{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       padding: 100px;
+       min-height: 40vh;
+       font-size: 30px;
+       margin-top: -100px;
+       margin-left: 400px;
+       gap: 1rem;
+   }
+   .all{
+       margin-top: 200px;
+       margin-left: 30px;
+       gap: 1rem;
+       width: 500px;
+   }
+   .all2{
+       margin-top: 30px;
+       margin-left: 30px;
+       gap: 1rem;
+       width: 500px;
+   }
+   .all3{
+       margin-top: 60px;
+       margin-left: 30px;
+       gap: 1rem;
+       width: 500px;
+   }
+   .ava{
+       display: flex;
+       margin-left: 30px;
+   }
+   h6{
+       display: flex;
+       margin-top: -20px;
+   }
+   .review-card{
+      height: 200px;
+
+   }
+}
